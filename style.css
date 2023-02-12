@@ -1,0 +1,204 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+.main{
+    display: flex;
+    background-color: #15263F;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.main-page{
+    
+    width: 350px;
+    height:596px;
+    box-shadow: 0px 25px 50px;
+    border-radius: 15px;
+    position: relative;
+}
+    
+
+.photo{
+    margin: 24px;
+    width: 302px;
+    height: 302px;
+}
+.overlay:hover{
+    background-color: rgba(0, 255, 248, 0.5);
+    visibility: visible;
+    background-image: url(/nft-preview-card-component/images/icon-view.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+    
+.photo1{
+    max-width: 302px;
+    max-height: 302px;
+    border-radius: 8px;
+
+
+}
+.overlay{
+    margin: 24px;
+    width: 302px;
+    height: 302px;
+    position:absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+.over{
+    max-width: 302px;
+    max-height: 302px;
+    border-radius: 8px;
+    visibility: hidden;
+    
+}
+h1{
+    font-family: outfit;
+    color:white;
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: 600;
+    line-height: 27.72px;
+    padding-left:24px;
+    padding-right:24px;
+    padding-bottom: 16px;
+
+}
+.upper-text{
+    font-family: outfit;
+    color: #8BACD9;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 26px;
+    font-style: normal;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 24px;
+}
+.symbols{
+    display: flex;
+    justify-content: space-between;
+    padding: 24px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.group1{
+    display: flex;
+    justify-items: center;
+    
+}
+.group2{
+    display:flex;
+    justify-items: center;
+}
+.et-element{
+    margin-left: 7px;
+    color: cyan;
+    font-family: outfit;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20.16px;
+    
+}
+.day-amount{
+    color: #8BACD9;
+    margin-left: 9px;
+    font-family: outfit;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20.16px;
+    font-style: normal;
+}
+
+.recta{
+    padding: 24px;
+    padding-bottom: 16px;
+}
+#line{
+    width:302px;
+    height:1px;
+    background-color: #2E405A;
+    padding: 0;
+}
+.creator{
+    display: flex;
+    align-items: center;
+    padding: 24px;
+    padding-top: 0;
+}
+
+.boy{
+    display: inline;
+    width: 32px;
+    height:32px;
+}
+.god{
+    font-family: outfit;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20.16px;
+    color:white;
+    margin-left: 5px;
+}
+.tex{
+    font-family: outfit;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20.16px;
+    color:#8BACD9 ;
+    margin-left: 16px;
+}
+
+
